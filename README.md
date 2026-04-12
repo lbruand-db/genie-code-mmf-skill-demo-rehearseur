@@ -25,8 +25,8 @@ rehearseur-template/
 │   └── index.css              # Global styles for full-screen layout
 │
 └── public/
-    ├── recording_jupyterlite.json           # rrweb session recording (JSON)
-    └── recording_jupyterlite.annotations.md # Markdown annotations with timestamps
+    ├── m4_local_forecasting.json           # rrweb session recording (JSON)
+    └── m4_local_forecasting.annotations.md # Markdown annotations with timestamps
 ```
 
 ### File Descriptions
@@ -37,8 +37,8 @@ rehearseur-template/
 - **`src/main.jsx`** - Renders the App component and imports global styles
 - **`src/App.jsx`** - RrwebPlayer component with recording and annotations URLs
 - **`src/index.css`** - Full-screen layout styles (removes margins, sets 100% height)
-- **`public/recording_jupyterlite.json`** - The rrweb recording file (array of DOM events)
-- **`public/recording_jupyterlite.annotations.md`** - Markdown file with bookmarks, timestamps, and descriptions
+- **`public/m4_local_forecasting.json`** - The rrweb recording file (array of DOM events)
+- **`public/m4_local_forecasting.annotations.md`** - Markdown file with bookmarks, timestamps, and descriptions
 
 ## Creating Annotations with an LLM
 
