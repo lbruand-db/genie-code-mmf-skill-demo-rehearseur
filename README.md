@@ -8,6 +8,10 @@ The recording walks through the full MMF workflow on the M4 weekly competition d
 2. **Provisioning** (`/provision-forecasting-resources`) — model selection (4 local + ChronosBoltSmall), CPU/GPU cluster configuration
 3. **Forecast Execution** (`/execute-mmf-forecast`) — notebook generation, backtesting setup, parallel job launch
 
+## Live Demo
+
+[https://lbruand-db.github.io/genie-code-mmf-skill-demo-rehearseur/](https://lbruand-db.github.io/genie-code-mmf-skill-demo-rehearseur/)
+
 ## Quick Start
 
 ```bash
