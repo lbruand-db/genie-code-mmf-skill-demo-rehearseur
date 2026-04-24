@@ -16,7 +16,7 @@ User types `/prep-and-clean-data` in Genie Code to begin the MMF data preparatio
 
 ### Annotation: Interactive Configuration {#interactive-config}
 ---
-timestamp: 45333
+timestamp: 33174
 color: #2196F3
 autopause: true
 ---
@@ -25,7 +25,7 @@ Genie Code asks for use case name, catalog, schema, and forecast brief. User pro
 
 ### Annotation: Table Discovery & Profiling {#table-profiling}
 ---
-timestamp: 100000
+timestamp: 80452
 color: #FF9800
 ---
 
@@ -33,7 +33,7 @@ Finds `m4_weekly_train`, profiles it (unique_id, ds, y), and presents column map
 
 ### Annotation: Training Table Created {#training-table}
 ---
-timestamp: 180000
+timestamp: 140921
 color: #FF9800
 ---
 
@@ -41,7 +41,7 @@ color: #FF9800
 
 ### Annotation: Missing Data & Anomaly Analysis {#anomaly-analysis}
 ---
-timestamp: 210000
+timestamp: 167964
 color: #9C27B0
 ---
 
@@ -49,7 +49,7 @@ Date spine detects 0 interior gaps across 359 series. IQR anomaly detection find
 
 ### Annotation: Reproducibility Notebook Generated {#repro-notebook}
 ---
-timestamp: 420000
+timestamp: 346286
 color: #4CAF50
 autopause: true
 ---
@@ -60,7 +60,7 @@ autopause: true
 
 ### Annotation: Model & Cluster Provisioning {#model-cluster}
 ---
-timestamp: 610000
+timestamp: 521476
 color: #2196F3
 autopause: true
 ---
@@ -71,7 +71,7 @@ User selects 4 local models (AutoArima, AutoETS, AutoTheta, SKTimeProphet) + Chr
 
 ### Annotation: Execution Notebooks Generated {#exec-notebooks}
 ---
-timestamp: 770000
+timestamp: 647403
 color: #FF9800
 ---
 
@@ -79,7 +79,7 @@ Three notebooks created: run_local, run_gpu, orchestrator_foundation. Backtestin
 
 ### Annotation: Jobs Triggered {#jobs-triggered}
 ---
-timestamp: 940000
+timestamp: 803252
 color: #4CAF50
 autopause: true
 ---
@@ -88,7 +88,7 @@ autopause: true
 
 ### Annotation: Recording Ends {#end}
 ---
-timestamp: 960000
+timestamp: 819948
 color: #E91E63
 autopause: true
 ---
